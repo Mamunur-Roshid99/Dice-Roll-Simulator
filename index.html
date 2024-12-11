@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roll Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex flex-col gap-4 items-center justify-center">
+
+    <h1 class="font-semibold text-5xl mt-28">Dice Roll Simulator</h1>
+    <div class="text-8xl duration-700" id="dice">&#9860;</div>
+    <button id="roll_button" class="bg-[#49A5C7] py-2 px-4 text-white rounded-lg font-semibold border-none">Roll Dice</button>
+    <ul id="roll_history" class="flex flex-col gap-4 items-center justify-center">
+        <li class="bg-[#EFEFEF] w-[500%] h-12 rounded-lg flex items-center justify-between">Roll 1: <span class="text-4xl">&#9856;</span></li>
+        <li class="bg-[#EFEFEF] w-[500%] h-12 rounded-lg flex items-center justify-between">Roll 1: <span class="text-4xl">&#9860;</span></li>
+    </ul>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
